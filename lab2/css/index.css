@@ -1,0 +1,37 @@
+.buttons {
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.calc-btn {
+  width: 100px;
+  height: 75px;
+  font-size: 30px;
+}
+div.calc-btn {
+  margin-bottom: 10px;
+}
+
+.input {
+  display: flex;
+  width: 300px;
+  margin-bottom: 20px;
+}
+
+.input input {
+  flex: 1;
+}
+
+.calculator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.history {
+  text-align: left;
+  margin-top: 22px;
+  width: 300px;
+}
